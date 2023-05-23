@@ -1,4 +1,4 @@
-# Installing VirtualBox on Ubuntu 20.04
+# Installing VirtualBox6.1 on Ubuntu20.04
 
 
 ```bash
