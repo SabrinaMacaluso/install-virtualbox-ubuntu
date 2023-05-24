@@ -28,6 +28,6 @@ If the first command keeps loading, you can try the following steps:
 ## How to uninstall VirtualBox
 
 ```bash
-sudo apt-get purge Virtulbox*
+sudo apt-get purge Virtualbox*
 rm -rf ~/.config/VirtualBox
 ```
