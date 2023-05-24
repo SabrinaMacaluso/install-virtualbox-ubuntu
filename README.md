@@ -25,3 +25,9 @@ If the first command keeps loading, you can try the following steps:
    sudo apt-key add oracle_vbox_2016.asc
    
 
+## How to uninstall VirtualBox
+
+```bash
+sudo apt-get purge Virtulbox*
+rm -rf ~/.config/VirtualBox
+```
