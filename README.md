@@ -8,6 +8,24 @@ sudo apt update
 sudo apt install virtualbox-6.1
 vboxmanage --version
 ```
+  
+
+## How to uninstall VirtualBox
+
+```bash
+sudo apt-get purge Virtualbox*
+rm -rf ~/.config/VirtualBox
+```
+
+## Using the Scripts
+
+```bash
+chmod +x install_virtualbox.sh
+chmod +x uninstall_virtualbox.sh
+```
+To install VirtualBox, run ```./install_virtualbox.sh```
+To uninstall VirtualBox, run ```./uninstall_virtualbox.sh```
+
 
 ## Troubleshooting
 
@@ -23,11 +41,3 @@ If the first command keeps loading, you can try the following steps:
 
    ```bash
    sudo apt-key add oracle_vbox_2016.asc
-   
-
-## How to uninstall VirtualBox
-
-```bash
-sudo apt-get purge Virtualbox*
-rm -rf ~/.config/VirtualBox
-```
